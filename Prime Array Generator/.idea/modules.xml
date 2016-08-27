@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Prime Array Generator.iml" filepath="$PROJECT_DIR$/.idea/modules/Prime Array Generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Prime_Array_Generator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Prime_Array_Generator_main.iml" group="Prime Array Generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Prime_Array_Generator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Prime_Array_Generator_test.iml" group="Prime Array Generator" />
+    </modules>
+  </component>
+</project>
