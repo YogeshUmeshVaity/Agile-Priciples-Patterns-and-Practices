@@ -68,4 +68,22 @@ public class PrimeArrayGeneratorTest {
         assertEquals(3, primeNumbers[1]);
     }
 
+    @Test
+    public void test_prime_numbers_from_2_to_500() {
+        for (int i = 0; i < 500; i++) {
+            verifyPrimeList(PrimeArrayGenerator.generatePrimes(i));
+        }
+    }
+
+    private void verifyPrimeList(final int[] list) {
+        for(int i = 0; i < list.length; i++) {
+            verifyPrime(list[i]);
+        }
+    }
+
+    private void verifyPrime(final int currentNumber) {
+        for (int factor = 2;  factor < currentNumber; factor++) {
+            assert (currentNumber % factor != 0);
+        }
+    }
 }
